@@ -6,7 +6,7 @@ import Footer from './components/Footer.vue';
 
 const route = useRoute();
 
-const showNavbar = computed(() => !['/sign-in', '/sign-up'].includes(route.path))
+const showNavbar = computed(() => !['/sign-in',].includes(route.path))
 </script>
 
 <template>
