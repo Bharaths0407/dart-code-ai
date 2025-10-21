@@ -27,8 +27,8 @@
 
             <!-- Navigation Links -->
             <nav class="hidden lg:flex space-x-15 absolute left-1/2 transform -translate-x-1/2 items-center mb-1 pl-2" aria-label="Primary navigation">
-                <a v-for="(link) in navLinks" 
-                :key="link.label" 
+                <router-link v-for="(link) in navLinks" 
+                :to="link.label" 
                 :href="link.href"
                 :class="[
                     'font-semibold transition-colors duration-300',
@@ -36,7 +36,7 @@
                     ? 'text-[#42389E]'
                     : 'text-foreground hover:text-[#42389E]'
                 ]"
-                >{{ link.label }}</a>
+                >{{ link.label }}</router-link>
             </nav>
 
             <!-- Login and signup buttons -->
@@ -94,8 +94,8 @@
                 <nav aria-label="Mobile Navigation">
                     <ul class="flex flex-col space-y-4">
                         <li v-for="(link) in navLinks" :key="link.label">
-                            <a
-                                :href="link.href"
+                            <router-link
+                                :to="link.href"
                                 :class="[
                                     'block font-semibold transition-colors duration-300 px-2 py-2',
                                     currentPath === link.href
@@ -105,7 +105,7 @@
                                 @click="toggleMenu"
                             >
                                 {{ link.label }}
-                            </a>
+                            </router-link>
                         </li>
                         <li>
                             <router-link to="/sign-in" asChild>
