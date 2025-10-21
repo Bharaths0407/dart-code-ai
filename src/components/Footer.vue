@@ -4,7 +4,7 @@ import { ref } from 'vue';
 const companyLinks = ref([
         { label: 'Pricing', href: '/pricing' },
         { label: 'Docs', href: '/docs' },
-        { label: 'About Us', href: '/about-us' },
+        { label: 'About Us', href: '/about' },
 ]);
 const helpLinks =  ref(['Customer Support', 'Terms & conditions','Privacy Policy']);
 const socialLinks = ref([
