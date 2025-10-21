@@ -41,21 +41,21 @@
 
             <!-- Login and signup buttons -->
             <div class="hidden lg:block ml-3">
-                <a href="/login" asChild>
+                <router-link to="/sign-in" asChild>
                     <Button
                         class="w-[125px]"
                         variant="outlineHover"
                     >
                         Login
                     </Button>
-                </a>
-                <a href="/signup" asChild>
+                </router-link>
+                <router-link to="/sign-up" asChild>
                     <Button
                     class="w-[125px] ml-4"
                     >
                         Sign Up
                     </Button>
-                </a>
+                </router-link>
             </div>
 
             <!-- Mobile Menu Button -->
@@ -108,7 +108,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="/login" asChild>
+                            <router-link to="/sign-in" asChild>
                                 <Button
                                     class="w-[200px]"
                                     variant="outlineHover"
@@ -116,17 +116,17 @@
                                 >
                                     Login
                                 </Button>
-                            </a>
+                            </router-link>
                         </li>
                         <li>
-                            <a href="/signup" asChild>
+                            <router-link to="/sign-up" asChild>
                                 <Button
                                 class="w-[200px] "
                                 @click="toggleMenu"
                                 >
                                     Sign Up
                                 </Button>
-                            </a>
+                            </router-link>
                         </li>
                     </ul>
                 </nav>
