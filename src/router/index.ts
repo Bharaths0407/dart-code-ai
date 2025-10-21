@@ -3,11 +3,13 @@ import AboutUs from '@/components/AboutUs.vue';
 import SignIn from '@/modules/auth/signIn/components/SignIn.vue'
 import SignUp from '@/modules/auth/signUp/components/SignUp.vue';
 import PricingPage from '@/modules/pricing/components/PricingPage.vue';
+import HomePage from '@/modules/home/components/HomePage.vue';
 
 
 
 const routes = [
 
+    {path: '/', component: HomePage},
     { path: '/sign-in', component: SignIn },
     { path: '/sign-up', component: SignUp },
     { path: '/about', component: AboutUs },
