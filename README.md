@@ -1,4 +1,4 @@
-# DartCode AI Home Page Assignment
+# DartCode AI Project
 
 ## Live URL
 https://dartcode-ai.netlify.app
@@ -45,11 +45,11 @@ Pixelay was used to compare the implemented page to the Figma design:
 
 ## How to Run Locally (Bun)
 
-**Steps : Clone the repository**
+**Steps to install and run the Project**
 ```bash
 git clone https://github.com/Bharaths0407/dart-code-ai.git
 
-cd [dartcode]
+cd dartcode
 
 bun install
 
