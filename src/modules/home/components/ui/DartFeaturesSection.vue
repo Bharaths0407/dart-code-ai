@@ -24,7 +24,7 @@ const desktopSections = [
         <h1 class="text-3xl md:text-4xl text-primary font-bold text-center">What Makes DartCode AI Different?</h1>
 
         <!-- DESKTOP & IPAD: text + image side by side -->
-        <div class="hidden md:flex flex-row items-start justify-between gap-10">
+        <div class="hidden lg:flex flex-row items-start justify-between gap-10">
             <!-- TEXT CONTENT -->
             <div class="w-1/2">
                 <div class="max-w-md w-full space-y-5">
@@ -42,7 +42,7 @@ const desktopSections = [
         </div>
 
         <!-- MOBILE: ShadCN Accordion first, image below -->
-        <div class="md:hidden flex flex-col gap-4">
+        <div class="lg:hidden flex flex-col gap-4">
             <h1 class="text-2xl text-black font-semibold">Frequently asked questions</h1>
             <Accordion type="single" collapsible class="w-full">
                 <AccordionItem v-for="(section, index) in desktopSections" :key="index" :value="`item-${index}`">

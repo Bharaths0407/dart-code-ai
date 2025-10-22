@@ -31,7 +31,7 @@ import GetStartedBackground from '@/components/GetStartedBackground.vue';
             <h1 class="text-4xl md:text-5xl font-bold text-primary text-center mb-9 mt-10">
                 Choose a plan that works for you
             </h1>
-            <PricingCard/>
+            <PricingCard class="w-full"/>
         </section>
 
         <!-- Feature section -->

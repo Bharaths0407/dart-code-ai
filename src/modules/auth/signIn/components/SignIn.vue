@@ -14,6 +14,16 @@ import {
     CardHeader,
     CardTitle,
 } from "@/components/ui/card";
+
+const features = [
+                { title: 'Faster Response Times: ', desc: 'Get Priority Support On Critical Issues.' },
+                { title: 'Expert Guidance: ', desc: 'Work Directly With Aortem Engineers For In-Depth Troubleshooting.' },
+                { title: 'Exclusive Developer Tools: ', desc: 'Optimize Performance With Premium Resources.' },
+                { title: 'Priority Resolutions: ', desc: 'Get Faster Response Times From Experts.' },
+                { title: 'Dedicated Support Engineers: ', desc: 'Direct Assistance From The Team That Built Aortem.' },
+                { title: 'Advanced Debugging & Optimization: ', desc: 'Tools And Guidance To Enhance Performance.' },
+                { title: 'Security & Compliance Assistance: ', desc: 'Ensure Best Practices For System Integrity.' },
+];
 </script>
 
 <template>
@@ -89,9 +99,9 @@ import {
                     <!-- Divider -->
                     <div class="w-full mx-auto px-1">
                         <div class="flex items-center gap-3 py-4 mt-2">
-                            <div class="flex-1 h-px bg-primary" />
+                            <div class="flex-1 h-0.5 bg-primary" />
                             <h1 class="text-xl text-primary">Login</h1>
-                            <div class="flex-1 h-px bg-primary" />
+                            <div class="flex-1 h-0.5 bg-primary" />
                         </div>
                     </div>
 
@@ -123,20 +133,3 @@ import {
     </div>
 </template>
 
-<script lang="ts">
-export default {
-    data() {
-        return {
-            features: [
-                { title: 'Faster Response Times: ', desc: 'Get Priority Support On Critical Issues.' },
-                { title: 'Expert Guidance: ', desc: 'Work Directly With Aortem Engineers For In-Depth Troubleshooting.' },
-                { title: 'Exclusive Developer Tools: ', desc: 'Optimize Performance With Premium Resources.' },
-                { title: 'Priority Resolutions: ', desc: 'Get Faster Response Times From Experts.' },
-                { title: 'Dedicated Support Engineers: ', desc: 'Direct Assistance From The Team That Built Aortem.' },
-                { title: 'Advanced Debugging & Optimization: ', desc: 'Tools And Guidance To Enhance Performance.' },
-                { title: 'Security & Compliance Assistance: ', desc: 'Ensure Best Practices For System Integrity.' },
-            ],
-        };
-    },
-};
-</script>
