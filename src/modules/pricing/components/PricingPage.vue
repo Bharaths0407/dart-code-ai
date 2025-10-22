@@ -13,16 +13,17 @@ import GetStartedBackground from '@/components/GetStartedBackground.vue';
     <img
       :src="pricingpagebackground"
       alt="Background SVG"
-      class="absolute top-0 left-0 w-full h-96 md:h-[500px] object-cover"
+      class="absolute top-0 left-0 w-full h-[500px] md:h-[600px] lg:h-[700px] xl:h-[800px]  pricing-bg-steep"
     />
 
     <!-- Overlay content -->
     <div class="relative z-10 w-full px-5 flex flex-col items-center">
 
       <!-- Heading (only this is centered) -->
-      <h1 class="text-4xl md:text-6xl font-bold text-primary text-center mb-10">
-        Choose a plan that works for you
+      <h1 class="text-4xl md:text-6xl font-bold text-primary text-center mb-4">
+        Explore Our Plans 
       </h1>
+      <p class="text-[#262E35] text-center font-semibold mb-10">Simple, transparent pricing that grows with you. Try any plan free for 10 days.</p>
 
       <!-- Pricing Card wrapper -->
       <div class="w-full max-w-7xl flex flex-col items-center ">
@@ -30,7 +31,6 @@ import GetStartedBackground from '@/components/GetStartedBackground.vue';
         <!-- PricingCard + DartCodeAiFeatures -->
         <div class="flex flex-col md:flex-col gap-0 md:gap-10 w-full">
           <PricingCard class="w-full"/>
-          <!-- Remove inherited text-center -->
           <div class="w-full">
             <DartCodeAiFeatures />
           </div>

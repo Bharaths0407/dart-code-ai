@@ -162,8 +162,8 @@ watch(emblaApi, (api) => {
                         </div>
                     </CarouselItem>
                 </CarouselContent>
-                <CarouselPrevious class="hidden md:flex -left-12" />
-                <CarouselNext class="hidden md:flex -right-12" />
+                <CarouselPrevious class="hidden xl:flex -left-12" />
+                <CarouselNext class="hidden xl:flex -right-12" />
             </Carousel>
 
             <!-- Dot Indicators (Non-clickable, visual only) -->

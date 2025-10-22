@@ -12,7 +12,9 @@ const showNavbar = computed(() => !['/sign-in',].includes(route.path))
 <template>
   <div>
     <Navbar  v-if="showNavbar" />
-    <router-view />
+    <Transition name="fade" mode="out-in" appear>
+      <router-view />
+    </Transition>
     <Footer v-if="showNavbar" />
   </div>
 </template>

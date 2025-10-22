@@ -43,7 +43,7 @@ const features: FeatureItem[] = [
             </h1>
 
             <!-- Features and Benefits Grid -->
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 sm:gap-12 lg:gap-16 w-full">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10 sm:gap-12 lg:gap-16 w-full">
                 <!-- Features Column -->
                 <div class="flex flex-col items-start justify-center space-y-6 sm:space-y-8 mx-auto">
                     <h2 class="text-2xl sm:text-3xl font-semibold text-[#262E35] mb-4 sm:mb-6 text-left w-full">

@@ -21,7 +21,9 @@ const socialLinks = ref([
         <div class="container mx-auto px-4 relative flex items-center justify-between max-w-7xl">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-8">
                 <div>
-                    <img src="/logoIcon.svg" alt="Logo Icon" class="h-10 w-auto mb-4"/>
+                    <router-link to="/">
+                        <img src="/logoIcon.svg" alt="Logo Icon" class="h-10 w-auto mb-4"/>
+                    </router-link>
                     <p class="text-sm text-[#667085]">Smarter automation. Faster releases. Fewer headaches. Join engineering teams who are transforming how they build and ship code, from pull request to production.</p>
                     <div class="flex space-x-4 mt-4">
                         <router-link v-for="(social, index) in socialLinks"
@@ -62,7 +64,7 @@ const socialLinks = ref([
                     <div class="flex">
                         <input type="email" placeholder="Enter email address" class="bg-white px-4 py-2 w-full pl-4  pr-12 rounded-l-lg"/>
                         <router-link to="/thank-you" aschild>
-                            <button type="button" class="px-6 py-2 bg-primary text-white rounded-r-lg">Join</button>
+                            <button type="button" class="px-6 py-2 bg-primary text-white rounded-r-lg cursor-pointer">Join</button>
                         </router-link>
                     </div>
                 </div>

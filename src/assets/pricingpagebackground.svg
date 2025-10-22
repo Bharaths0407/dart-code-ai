@@ -1,10 +1,8 @@
-<svg width="834" height="812" viewBox="0 0 834 812" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="1092" height="124" transform="translate(-129)" fill="#E6E7F3"/>
-<rect width="1072.08" height="88.4786" transform="matrix(0.971341 -0.293199 0.12982 0.983168 -105.053 639.07)" fill="#E6E7F3"/>
-<rect width="1077.31" height="115.512" transform="matrix(0.971341 -0.293199 0.12982 0.983168 -124.887 525)" fill="#42489E"/>
-<rect width="1072.08" height="88.4786" transform="matrix(0.971341 -0.293199 0.12982 0.983168 -93.9365 721.101)" fill="#E6E7F3"/>
-<foreignObject x="-210.845" y="12.8889" width="1245.85" height="642.222"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(55.56px);clip-path:url(#bgblur_0_2028_1710_clip_path);height:100%;width:100%"></div></foreignObject><path data-figma-bg-blur-radius="111.111" d="M-99.7334 124H923.893V243.682L-99.7334 544V124Z" fill="#E6E7F3"/>
+<svg width="1440" height="603" viewBox="0 0 1440 603" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1744.3" height="89.4448" transform="matrix(0.986805 -0.180205 0.212266 0.972548 -143.416 515.07)" fill="#E6E7F3"/>
+<rect width="1752.81" height="116.773" transform="matrix(0.986805 -0.180205 0.212266 0.972548 -176.2 401)" fill="#42489E"/>
+<foreignObject x="-245.736" y="-111.111" width="1914.21" height="642.222"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(55.56px);clip-path:url(#bgblur_0_2041_1709_clip_path);height:100%;width:100%"></div></foreignObject><path data-figma-bg-blur-radius="111.111" d="M-134.625 0H1557.36V119.682L-134.625 420V0Z" fill="#E2E3F0"/>
 <defs>
-<clipPath id="bgblur_0_2028_1710_clip_path" transform="translate(210.845 -12.8889)"><path d="M-99.7334 124H923.893V243.682L-99.7334 544V124Z"/>
+<clipPath id="bgblur_0_2041_1709_clip_path" transform="translate(245.736 111.111)"><path d="M-134.625 0H1557.36V119.682L-134.625 420V0Z"/>
 </clipPath></defs>
 </svg>
