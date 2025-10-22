@@ -5,6 +5,7 @@ import SignUp from '@/modules/auth/signUp/components/SignUp.vue';
 import PricingPage from '@/modules/pricing/components/PricingPage.vue';
 import HomePage from '@/modules/home/components/HomePage.vue';
 import GetEarlyAccessPage from '@/components/GetEarlyAccessPage.vue';
+import ThankyouCard from '@/components/ThankyouCard.vue';
 
 
 
@@ -16,6 +17,7 @@ const routes = [
     { path: '/about', component: AboutUs },
     { path: '/pricing', component: PricingPage },
     { path: '/early-access', component: GetEarlyAccessPage },
+    { path: '/thank-you', component: ThankyouCard},
 
 ]
 

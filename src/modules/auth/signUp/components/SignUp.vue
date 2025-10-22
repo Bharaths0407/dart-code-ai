@@ -121,9 +121,11 @@
                     />
                 </div>
 
-                <Button class="h-[45px] md:h-[50px] rounded-full w-full mt-3">
-                    Get Early Access
-                </Button>
+                <router-link to="/thank-you" aschild>
+                    <Button class="h-[45px] md:h-[50px] rounded-full w-full mt-3">
+                        Get Early Access
+                    </Button>
+                </router-link>
                 </div>
             </div>
         </div>

@@ -61,7 +61,9 @@ const socialLinks = ref([
                     <p class="text-sm text-gray-400 mb-4 font-semibold">Subscribe to Newsletter</p>
                     <div class="flex">
                         <input type="email" placeholder="Enter email address" class="bg-white px-4 py-2 w-full pl-4  pr-12 rounded-l-lg"/>
-                        <button type="submit" class="px-6 bg-primary text-white rounded-r-lg">Join</button>
+                        <router-link to="/thank-you" aschild>
+                            <button type="button" class="px-6 py-2 bg-primary text-white rounded-r-lg">Join</button>
+                        </router-link>
                     </div>
                 </div>
             </div>
