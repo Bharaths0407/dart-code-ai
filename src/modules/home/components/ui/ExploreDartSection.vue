@@ -1,12 +1,13 @@
 <script setup lang="ts">
-import { Card, CardContent } from '@/components/ui/card';
 
-import automatedIcon from '@/assets/icons/automated.svg';
-import multiIcon from '@/assets/icons/multi.svg';
 import aiIcon from '@/assets/icons/ai.svg';
 import qaIcon from '@/assets/icons/qa.svg';
-import codeIcon from '@/assets/icons/code.svg';
 import cliIcon from '@/assets/icons/cli.svg';
+import codeIcon from '@/assets/icons/code.svg';
+import multiIcon from '@/assets/icons/multi.svg';
+import automatedIcon from '@/assets/icons/automated.svg';
+
+import { Card, CardContent } from '@/components/ui/card';
 
 interface Feature {
     iconPath: string;

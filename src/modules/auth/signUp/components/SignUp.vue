@@ -5,16 +5,18 @@
     import Button from '@/components/ui/button/Button.vue';
     import {
             Card,
+            CardTitle,
+            CardHeader,
             CardContent,
             CardDescription,
-            CardHeader,
-            CardTitle,
         } from "@/components/ui/card";
+
+    import { ROUTES } from '@/constants';
 </script>
 
 <template >
     <div class="relative flex flex-col lg:flex-row items-center justify-center lg:justify-between max-w-7xl mx-auto px-5 py-10 gap-10">
-    <!-- CARD: On top in mobile, right in desktop -->
+    <!-- CARD:  -->
         <div class="w-full lg:w-1/2 flex justify-center order-1 lg:order-2">
             <Card class="bg-primary text-white w-[500px] h-[500px] rounded-3xl">
                     <CardHeader>
@@ -73,7 +75,7 @@
             </Card>
         </div>
 
-    <!-- LOGIN FORM: Below in mobile, left in desktop -->
+    <!-- LOGIN FORM -->
         <div class="flex flex-col mt-3 space-y-5 w-full lg:w-1/2 order-2 lg:order-1 items-center lg:items-start">
             <div class="max-w-md w-full">
                 <!-- Header -->
@@ -121,7 +123,7 @@
                     />
                 </div>
 
-                <router-link to="/thank-you" aschild>
+                <router-link :to="`${ROUTES.THANK_YOU}`" aschild>
                     <Button class="h-[45px] md:h-[50px] rounded-full w-full mt-3">
                         Get Early Access
                     </Button>

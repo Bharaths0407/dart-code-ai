@@ -1,9 +1,10 @@
 <script setup lang="ts">
-import google from '@/assets/google.svg';
+import { CircleCheck } from 'lucide-vue-next';
+
 import apple from '@/assets/apple.svg';
+import google from '@/assets/google.svg';
 import github from '@/assets/github.svg';
 import microsoft from '@/assets/microsoft.svg';
-import { CircleCheck } from 'lucide-vue-next';
 
 import Input from "@/components/ui/input/Input.vue";
 import Button from '@/components/ui/button/Button.vue';
@@ -40,7 +41,7 @@ const features = [
         <!-- Main layout -->
         <div
             class="relative flex flex-col lg:flex-row items-top justify-center lg:justify-between max-w-7xl mx-auto px-5 py-10 gap-10">
-            <!-- RIGHT SIDE CARD (on desktop) / TOP (on mobile) -->
+            <!-- RIGHT SIDE CARD  -->
             <div class="w-full lg:w-1/2 flex justify-center order-1 lg:order-2">
                 <Card class="bg-primary text-white w-full sm:w-[400px] md:w-[450px] lg:w-[500px] rounded-3xl">
                     <CardHeader>

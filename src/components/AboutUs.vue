@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import aboutus from '@/assets/aboutus.svg';
+
 import GetStartedBackground from './GetStartedBackground.vue';
 </script>
 
@@ -55,7 +56,7 @@ import GetStartedBackground from './GetStartedBackground.vue';
             
         </div>
 
-        <!-- GET STARTED: below both text and image -->
+        <!-- GET STARTED: copomponent -->
         <div class="w-full mt-10">
             <GetStartedBackground />
         </div>

@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import featurepage from '@/assets/featurepage.svg';
+
 import {
     Accordion,
     AccordionItem,
@@ -31,7 +32,7 @@ const mobileSections = [
         <!-- HEADER -->
         <h1 class="text-3xl md:text-4xl text-primary font-bold text-center">What Makes DartCode AI Different?</h1>
 
-        <!-- DESKTOP & IPAD: text + image side by side -->
+        <!-- DESKTOP & IPAD -->
         <div class="hidden lg:flex flex-row items-start justify-between gap-10">
             <!-- TEXT CONTENT -->
             <div class="w-1/2">

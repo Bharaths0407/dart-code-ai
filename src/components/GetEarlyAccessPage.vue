@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import getEarlyAccessBackground from "@/assets/earlyaccessbackground.svg";
 
+import { ROUTES } from '@/constants';
+
 import { Button } from '@/components/ui/button';
 </script>
 
@@ -34,7 +36,7 @@ import { Button } from '@/components/ui/button';
                     Dart. Be The First To Try It, Shape It, And Ship With It.
                 </p>
 
-                <router-link to="/sign-up" aschild>
+                <router-link :to="`${ROUTES.SIGN_UP}` " aschild>
                 <Button
                     class=" px-8 py-6  text-base font-medium  sm:px-10 sm:text-lg md:px-12 md:py-7 md:text-xl"
                     size="lg">

@@ -1,6 +1,9 @@
 <script setup lang="ts">
-import { Card, CardContent } from '@/components/ui/card'
-import { Button } from '@/components/ui/button'
+import { Button } from '@/components/ui/button';
+import { Card, CardContent } from '@/components/ui/card';
+
+import { ROUTES } from '@/constants';
+
 </script>
 
 <template>
@@ -23,7 +26,7 @@ import { Button } from '@/components/ui/button'
                     </p>
 
                     <div class="pt-4">
-                        <router-link to="/early-access" asChild>
+                        <router-link :to="`${ROUTES.EARLY_ACCESS}`" asChild>
                             <Button size="lg"
                                 class="bg-white text-black hover:bg-gray-100 font-semibold px-8 py-6 text-lg rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
                                 Get Started

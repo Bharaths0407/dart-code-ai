@@ -1,10 +1,10 @@
 <script setup lang="ts">
 import HeroSection from '@/modules/home/components//ui/HeroSection.vue';
+import PricingCard from '@/modules/pricing/components/ui/PricingCard.vue';
 import BenefitsSection from '@/modules/home/components//ui/BenefitsSection.vue';
 import ExploreDartSection from '@/modules/home/components//ui/ExploreDartSection.vue';
 import DartFeaturesSection from '@/modules/home/components//ui/DartFeaturesSection.vue';
 
-import PricingCard from '@/modules/pricing/components/ui/PricingCard.vue';
 import GetStartedBackground from '@/components/GetStartedBackground.vue';
 
 </script>

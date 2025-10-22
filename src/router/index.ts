@@ -1,23 +1,26 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router';
+
 import AboutUs from '@/components/AboutUs.vue';
-import SignIn from '@/modules/auth/signIn/components/SignIn.vue'
-import SignUp from '@/modules/auth/signUp/components/SignUp.vue';
-import PricingPage from '@/modules/pricing/components/PricingPage.vue';
-import HomePage from '@/modules/home/components/HomePage.vue';
-import GetEarlyAccessPage from '@/components/GetEarlyAccessPage.vue';
 import ThankyouCard from '@/components/ThankyouCard.vue';
+import HomePage from '@/modules/home/components/HomePage.vue';
+import SignIn from '@/modules/auth/signIn/components/SignIn.vue';
+import SignUp from '@/modules/auth/signUp/components/SignUp.vue';
+import GetEarlyAccessPage from '@/components/GetEarlyAccessPage.vue';
+import PricingPage from '@/modules/pricing/components/PricingPage.vue';
+
+import { ROUTES } from '@/constants';
 
 
 
 const routes = [
 
-    {path: '/', component: HomePage},
-    { path: '/sign-in', component: SignIn },
-    { path: '/sign-up', component: SignUp },
-    { path: '/about', component: AboutUs },
-    { path: '/pricing', component: PricingPage },
-    { path: '/early-access', component: GetEarlyAccessPage },
-    { path: '/thank-you', component: ThankyouCard},
+    { path: ROUTES.HOME, component: HomePage },
+    { path: ROUTES.SIGN_IN, component: SignIn },
+    { path: ROUTES.SIGN_UP, component: SignUp },
+    { path: ROUTES.ABOUT, component: AboutUs },
+    { path: ROUTES.PRICING, component: PricingPage },
+    { path: ROUTES.EARLY_ACCESS, component: GetEarlyAccessPage },
+    { path: ROUTES.THANK_YOU, component: ThankyouCard },
 
 ]
 

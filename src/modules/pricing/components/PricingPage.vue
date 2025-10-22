@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import pricingpagebackground from '@/assets/pricingpagebackground.svg'
+import pricingpagebackground from '@/assets/pricingpagebackground.svg';
 
 import PricingCard from './ui/PricingCard.vue';
 import DartCodeAiFeatures from './ui/DartCodeAiFeatures.vue';

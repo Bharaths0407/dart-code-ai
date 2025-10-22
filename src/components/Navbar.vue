@@ -1,16 +1,21 @@
 <script setup lang="ts">
-import { ref } from 'vue'
-import { useRoute } from 'vue-router'
-import menuIcon from '@/assets/menuIcon.svg'
-import Button from './ui/button/Button.vue'
+import { ref } from 'vue';
+import { useRoute } from 'vue-router';
+
+import menuIcon from '@/assets/menuIcon.svg';
+
+import Button from './ui/button/Button.vue';
+
+import { ROUTES } from '@/constants';
+
 
 // Get the reactive route object
 const route = useRoute()
 
 const navLinks = ref([
-    { label: 'Home', href: '/' },
-    { label: 'About', href: '/about' },
-    { label: 'Pricing', href: '/pricing' },
+    { label: 'Home', href: `${ROUTES.HOME}`  },
+    { label: 'About', href:`${ROUTES.ABOUT}` },
+    { label: 'Pricing', href:`${ROUTES.PRICING}` },
 ])
 
 const isMenuOpen = ref(false)
@@ -42,10 +47,10 @@ const toggleMenu = () => {
 
             <!-- Login and signup buttons -->
             <div class="hidden lg:block ml-3">
-                <router-link to="/sign-in" asChild>
+                <router-link :to="`${ROUTES.SIGN_IN}`" asChild>
                     <Button class="w-[125px] hover:scale-105" variant="outlineHover">Login</Button>
                 </router-link>
-                <router-link to="/sign-up" asChild>
+                <router-link :to="`${ROUTES.SIGN_UP}`" asChild>
                     <Button class="w-[125px] ml-4 hover:scale-105">Sign Up</Button>
                 </router-link>
             </div>
@@ -78,14 +83,14 @@ const toggleMenu = () => {
                             </router-link>
                         </li>
                         <li>
-                            <router-link to="/sign-in" asChild>
+                            <router-link :to="`${ROUTES.SIGN_IN}`" asChild>
                                 <Button class="w-[200px]" variant="outlineHover" @click="toggleMenu">
                                     Login
                                 </Button>
                             </router-link>
                         </li>
                         <li>
-                            <router-link to="/sign-up" asChild>
+                            <router-link :to="`${ROUTES.SIGN_UP}`"  asChild>
                                 <Button class="w-[200px]" @click="toggleMenu">
                                     Sign Up
                                 </Button>

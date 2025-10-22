@@ -11,6 +11,9 @@ import digitalOcean from '@/assets/digitalocean.svg'
 import ibm from '@/assets/ibm.svg'
 import Button from '@/components/ui/button/Button.vue'
 
+import { ROUTES } from '@/constants';
+
+
 </script>
 
 <template>
@@ -37,7 +40,7 @@ import Button from '@/components/ui/button/Button.vue'
 
         <!-- Buttons -->
         <div class="mt-8 flex flex-col items-center gap-4">
-            <router-link to="/early-access" asChild>
+            <router-link :to="`${ROUTES.EARLY_ACCESS}`" asChild>
                 <Button class="px-8 py-6 text-base">Get Started</Button>
             </router-link>
             <Button variant="link" href="#"
