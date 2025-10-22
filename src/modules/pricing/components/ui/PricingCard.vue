@@ -76,7 +76,7 @@ watch(emblaApi, (api) => {
 </script>
 
 <template>
-    <div class="w-full bg-background py-16">
+    <div class="w-full bg-transparent py-16">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <Carousel :opts="{ align: 'center' }" class="w-full" @init-api="setApi">
                 <CarouselContent class="-ml-4">

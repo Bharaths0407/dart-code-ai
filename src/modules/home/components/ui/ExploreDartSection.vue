@@ -1,6 +1,13 @@
 <script setup lang="ts">
 import { Card, CardContent } from '@/components/ui/card';
 
+import automatedIcon from '@/assets/icons/automated.svg';
+import multiIcon from '@/assets/icons/multi.svg';
+import aiIcon from '@/assets/icons/ai.svg';
+import qaIcon from '@/assets/icons/qa.svg';
+import codeIcon from '@/assets/icons/code.svg';
+import cliIcon from '@/assets/icons/cli.svg';
+
 interface Feature {
     iconPath: string;
     title: string;
@@ -9,32 +16,32 @@ interface Feature {
 
 const features: Feature[] = [
     {
-        iconPath: "/src/assets/icons/automated.svg",
+        iconPath: automatedIcon,
         title: "Automated Pull Request",
         description: "Streamline PR reviews with AI-assisted release detection and changelog generation."
     },
     {
-        iconPath: "/src/assets/icons/multi.svg",
+        iconPath: multiIcon,
         title: "Multi-Repo Coordination",
         description: "Keep packages in sync, auto-bump versions, and manage dependencies at scale."
     },
     {
-        iconPath: "/src/assets/icons/ai.svg",
+        iconPath: aiIcon,
         title: "AI Documentation",
         description: "Auto-generate and sync release notes and developer docs (Markdown + GitBook-ready)."
     },
     {
-        iconPath: "/src/assets/icons/qa.svg",
+        iconPath: qaIcon,
         title: "Full QA Automation",
         description: "Run smart, AI-generated tests across unit, integration, and end-to-end layers."
     },
     {
-        iconPath: "/src/assets/icons/code.svg",
+        iconPath: codeIcon,
         title: "Code Coverage Integration",
         description: "Enforce release gates with Codecov/Coveralls thresholds — no surprises in production."
     },
     {
-        iconPath: "/src/assets/icons/cli.svg",
+        iconPath: cliIcon,
         title: "Intelligent Dart CLI",
         description: "Ship faster with our CLI assistant 'Pious' — get fixes, tests, and refactor directly from your terminal."
     }
