@@ -43,7 +43,7 @@ const features: Feature[] = [
 
 <template>
     <div class="w-full bg-background py-16 px-4 sm:px-6 lg:px-8">
-        <div class="max-w-7xl mx-auto">
+        <div class="max-w-6xl mx-auto">
             <!-- Header Section -->
             <div class="text-center mb-16">
                 <h1 class="text-4xl md:text-5xl font-bold text-primary mb-4">

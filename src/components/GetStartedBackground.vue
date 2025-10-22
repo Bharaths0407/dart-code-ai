@@ -23,10 +23,12 @@ import { Button } from '@/components/ui/button'
                     </p>
 
                     <div class="pt-4">
-                        <Button size="lg"
-                            class="bg-white text-black hover:bg-gray-100 font-semibold px-8 py-6 text-lg rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
-                            Get Started
-                        </Button>
+                        <router-link to="/early-access" asChild>
+                            <Button size="lg"
+                                class="bg-white text-black hover:bg-gray-100 font-semibold px-8 py-6 text-lg rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
+                                Get Started
+                            </Button>
+                        </router-link>
                     </div>
                 </CardContent>
             </Card>

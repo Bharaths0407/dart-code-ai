@@ -37,7 +37,9 @@ import Button from '@/components/ui/button/Button.vue'
 
         <!-- Buttons -->
         <div class="mt-8 flex flex-col items-center gap-4">
-            <Button class="px-8 py-6 text-base">Get Started</Button>
+            <router-link to="/early-access" asChild>
+                <Button class="px-8 py-6 text-base">Get Started</Button>
+            </router-link>
             <Button variant="link" href="#"
                 class=" bg-[#E6E7F4] w-[450px] rounded-none text-primary underline underline-offset-4 hover:text-primary/80 mt-6">
                 Explore DartCode AI for free.
