@@ -162,12 +162,12 @@ watch(emblaApi, (api) => {
                         </div>
                     </CarouselItem>
                 </CarouselContent>
-                <CarouselPrevious class="hidden xl:flex -left-12" />
-                <CarouselNext class="hidden xl:flex -right-12" />
+                <CarouselPrevious class="hidden" />
+                <CarouselNext class="hidden" />
             </Carousel>
 
             <!-- Dot Indicators (Non-clickable, visual only) -->
-            <div class="flex justify-center items-center gap-2 mt-8">
+            <div class="flex justify-center items-center gap-2 mt-8 lg:hidden">
                 <div v-for="(_plan, index) in plans" :key="index" :class="[
                     'h-2 rounded-full transition-all duration-300 ease-in-out',
                     index === selectedIndex
